@@ -13,7 +13,10 @@ def load_retriever_from_pdf(pdf_path, chroma_path):
     else:
         print("📄 PDF 로딩 및 임베딩 중...")
         loader = PyPDFLoader(pdf_path)
-        text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=100)
+        text_splitter = CharacterTextSplitter(
+            chunk_size=500,
+            chunk_overlap=100
+        )
         docs = loader.load_and_split(text_splitter=text_splitter)
 
         db = Chroma.from_documents(
@@ -24,4 +27,4 @@ def load_retriever_from_pdf(pdf_path, chroma_path):
         db.persist()
         print("✅ Chroma DB 생성 완료")
 
-    return db.as_retriever(search_kwargs={"k": 3})
+    return db.as_retriever(search_kwargs={"k": 2})

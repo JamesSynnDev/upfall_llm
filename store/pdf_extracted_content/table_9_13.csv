@@ -1,0 +1,27 @@
+﻿0,1,2
+Function Name,Brief Description,Release Date
+"Amazon Bedrock
+Agents","Executes multistep tasks using foundation models
+and enterprise systems.",Jul-22
+"Multi-Agent
+Orchestrator
+Framework","Manages multiple AI agents for complex
+conversational scenarios, integrating with AWS
+Lambda and other platforms.",Dec-24
+"Amazon Bedrock
+Multi-Agent
+Collaboration","Enables multiple agents to collaborate under a
+supervisor agent for complex tasks.",Mar-25
+"Inline Agent
+Support","Dynamically creates supervisor agents at runtime for
+flexible agent management.",Mar-25
+"Payload
+Referencing","Allows supervisor agents to reference external data
+without embedding it in requests.",Mar-25
+"CloudFormation
+and CDK Support","Deploys agent networks as code for scalability and
+reusability.",Mar-25
+"Enhanced
+Traceability and
+Debugging","Provides structured logs and Amazon CloudWatch
+integration for better monitoring.",Mar-25

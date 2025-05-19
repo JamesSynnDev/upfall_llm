@@ -1,0 +1,30 @@
+﻿0,1,2
+Function Calling,plugins and external services.,(Experimental)
+"Semantic Kernel
+Agent
+Framework","Enables creation and management of AI
+agents for autonomous tasks.","August 2024
+(Experimental), March
+2025 (Release Candidate)"
+"ChatCompletion
+Agent",Completes chats using AI models.,"August 2024
+(Experimental), March
+2025 (Release Candidate)"
+"OpenAIAssistant
+Agent",Utilizes OpenAI Assistant API for agent tasks.,"August 2024
+(Experimental), March
+2025 (Release Candidate)"
+"Multi-Agent
+Collaboration","Allows multiple agents to collaborate on
+complex tasks.","February 2025
+(Experimental)"
+"Multi-Model
+Orchestration","Enables agents to use different AI models for
+diverse tasks.","February 2025
+(Experimental)"
+AzureAIAgent,"Integrates Azure AI services into agent
+workflows.","March 2025 (Release
+Candidate)"
+AgentResponseI,"Handles chat message threads with optional
+agent threads.","March 2025 (Release
+Candidate 2)"

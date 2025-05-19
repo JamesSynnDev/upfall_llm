@@ -145,4 +145,3 @@ $RECYCLE.BIN/
 .env
 models/
 logs/
-store/

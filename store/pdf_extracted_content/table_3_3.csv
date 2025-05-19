@@ -1,0 +1,38 @@
+﻿0
+""
+"way.
+● Applications: Research, daily life, data analysis,
+education, and entertainment; current use cases face
+challenges in multi-source integration and accuracy.
+● Indication: AI Agents offer a relatively complete 2C user
+完整测评：硅⾕AI导航 experience; focus on commercialization at the
+application layer; founders must move fast to gain a
+first-mover advantage and iterate quickly on data and
+tools.
+4. Technological readiness for boost of AI Agent
+Reasoning Memory（Context） Tooling
+● Oct 2022: Princeton & ● May 2023: Claude model ● Dec 2023: Simular AI
+Google Brain introduced introduced a 100K Agent Demo – An AI
+the ReAct framework. context window, over agent showcasing
+● Mar 2023: ChatGPT-4 100× larger than GPT's. autonomy and tool
+launched with ● Nov 2023: Claude 2.1 interaction.
+significantly improved expanded to a 200K ● May 2024: OpenAI's GPT-
+reasoning and response context window, 4o – Autonomous AI
+quality. significantly enhancing capable of executing
+● Mar 2023: ChatGPT reasoning. tasks and integrating with
+Plugin enabled external ● Feb 2024: Google external tools via the
+tool usage, expanding released Gemini 1.5 with Assistants API.
+GPT’s capabilities. a million-token context ● Oct 2024: Claude
+● 2024: OpenAI o1 & o3 window. Computer Use – AI
+tackled complex updated to interact with
+problems with near- computers and perform
+human precision; o3 tasks requiring direct
+improved efficiency by computer interaction.
+20% and set new ARC ● Jan 2025: OpenAI's
+benchmarks. Operator – AI emulating
+● Jan 2025：DeepSeek a research analyst to
+R1 is A breakthrough in gather and analyze data
+AI reasoning, offering using various tools.
+high performance at
+lower costs, leveraging"
+3 / 15

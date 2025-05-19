@@ -1,0 +1,34 @@
+﻿0
+""
+"■ Amazon Q Developer Agents: AWS has introduced new agents in Amazon Q to
+reduce workloads. These agents leverage advanced models like Claude 3.7 Sonnet for
+more interactive developer experiences.
+■ Alexa+: An upgraded version of Alexa that incorporates agentic AI capabilities,
+allowing it to perform tasks autonomously, such as booking rides or browsing
+websites.
+■ BedRock:
+Function Name Brief Description Release Date
+Amazon Bedrock Executes multistep tasks using foundation models Jul-22
+Agents and enterprise systems.
+Multi-Agent Manages multiple AI agents for complex Dec-24
+Orchestrator conversational scenarios, integrating with AWS
+Framework Lambda and other platforms.
+Amazon Bedrock Enables multiple agents to collaborate under a Mar-25
+Multi-Agent supervisor agent for complex tasks.
+Collaboration
+Inline Agent Dynamically creates supervisor agents at runtime for Mar-25
+Support flexible agent management.
+Payload Allows supervisor agents to reference external data Mar-25
+Referencing without embedding it in requests.
+CloudFormation Deploys agent networks as code for scalability and Mar-25
+and CDK Support reusability.
+Enhanced Provides structured logs and Amazon CloudWatch Mar-25
+Traceability and integration for better monitoring.
+Debugging
+● Microsoft:
+○ CoreAI Team: Microsoft has formed a new engineering team called CoreAI – Platform and Tools to
+accelerate AI development (Jan 2025). This team combines resources from the developer division, AI
+platform, and key teams from the Office of the CTO to build end-to-end AI stacks for both first-party
+and third-party customers.
+○ AI Agent products:"
+9 / 15

@@ -29,20 +29,30 @@ async def websocket_chat(ws: WebSocket):
     print("INFO: WebSocket connection accepted")
     try:
         while True:
-            # 클라이언트 메시지 수신
             user_msg = await ws.receive_text()
-            print(f"⬅ Received from client: '{user_msg}'")
+            logger.info(f"⬅ 수신된 질문: {user_msg}")
 
-            # 모델 추론
-            logger.info(f"[generate_text] prompt={user_msg!r}")
-            bot_resp = await run_in_threadpool(rag_chain.invoke(user_msg))
-            logger.info(f"[generate_text] output={bot_resp!r}")
+            try:
+                # 🔍 문서 디버깅용
+                docs = retriever.invoke(user_msg)
+                logger.info(f"🔍 검색된 문서 수: {len(docs)}")
+                for i, doc in enumerate(docs):
+                    logger.info(f"[{i + 1}] {doc.page_content[:100]}...")
 
-            # 클라이언트로 전송
-            print(f"🧠 모델 응답: '{bot_resp}'")
-            print(f"▶ Sending to client: '{bot_resp}'")
-            await ws.send_text(bot_resp)
-            print("✔ 메시지 전송 완료")
+                # 🤖 LLM 추론
+                resp = await run_in_threadpool(lambda: rag_chain.invoke(user_msg))
+
+                # 결과 처리
+                if not resp.strip():
+                    logger.warning("⚠️ 모델이 빈 응답을 반환했습니다.")
+                    await ws.send_text("⚠️ 답변을 생성하지 못했습니다.")
+                else:
+                    await ws.send_text(resp)
+                    logger.info(f"🧠 전송된 응답: {resp}")
+
+            except Exception as e:
+                logger.exception("❌ LLM 추론 중 오류")
+                await ws.send_text("⚠️ 모델 응답 생성 중 오류가 발생했습니다.")
 
     except WebSocketDisconnect:
         print("INFO: Client disconnected")

@@ -1,0 +1,22 @@
+﻿0,1,2
+Feature/Function,Brief Description,Release Date
+"Vertex AI Agent Builder
+No-Code Interface","Allows users to build AI agents without
+coding, using natural language instructions.",Jan-25
+"Code-First Orchestration
+with LangChain and
+LlamaIndex","Provides advanced tools for developers to
+build complex AI applications.",Jan-25
+"Real-Time Data
+Integration via RAG
+System","Connects AI agents to trusted data sources
+like Google Search and enterprise data.",Jan-25
+"Low-Code to High-Code
+Development","Offers flexibility for both simple and
+complex AI application development.",Jan-25
+"Integration with
+Dialogflow CX","Enhances natural language understanding
+for AI agents.",Jan-25
+"Integration with Vertex AI
+Search","Enables information retrieval from
+enterprise data.",Jan-25

@@ -1,0 +1,32 @@
+﻿0
+""
+"Function Calling plugins and external services. (Experimental)
+Semantic Kernel Enables creation and management of AI August 2024
+Agent agents for autonomous tasks. (Experimental), March
+Framework 2025 (Release Candidate)
+ChatCompletion Completes chats using AI models. August 2024
+Agent (Experimental), March
+2025 (Release Candidate)
+OpenAIAssistant Utilizes OpenAI Assistant API for agent tasks. August 2024
+Agent (Experimental), March
+2025 (Release Candidate)
+Multi-Agent Allows multiple agents to collaborate on February 2025
+Collaboration complex tasks. (Experimental)
+Multi-Model Enables agents to use different AI models for February 2025
+Orchestration diverse tasks. (Experimental)
+AzureAIAgent Integrates Azure AI services into agent March 2025 (Release
+workflows. Candidate)
+AgentResponseI Handles chat message threads with optional March 2025 (Release
+agent threads. Candidate 2)
+● Google
+○ Gemini 2.0: This AI model is designed to enhance multimodality, native tool use, and
+advanced reasoning capabilities. It supports the development of AI agents with improved
+dialogue, memory, and latency
+○ Products:
+■ to B products:
+Product Brief Description Release Date
+Name
+Project AI agent for human-agent interaction in web browsers. December 2024
+Mariner (Announced)
+Jules AI-powered code agent for developers. December 2024"
+11 / 15

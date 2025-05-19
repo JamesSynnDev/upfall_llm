@@ -74,3 +74,8 @@ uvicorn==0.34.2
 virtualenv==20.30.0
 watchfiles==1.0.5
 websockets==15.0.1
+
+langchain-community~=0.3.18
+pdfplumber~=0.11.6
+pandas~=2.2.3
+fitz~=0.0.1.dev2

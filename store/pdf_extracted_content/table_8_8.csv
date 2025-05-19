@@ -1,0 +1,24 @@
+﻿0
+""
+"Define a good use case for AI Agent:
+○ High-repetition tasks: Ideal for customer support, sales, and similar roles.
+○ Modular workflows: Best for self-contained software development tasks requiring minimal
+background knowledge.
+○ Information retrieval & processing: Effective for research tasks without complex tool
+dependencies.
+○ Augmentation over replacement: AI should assist and integrate gradually rather than fully
+replace human roles.
+○ Autonomy & adaptability: Suitable for dynamic environments, complex decision-making,
+and continuous learning.
+6.4 Infrastructure, framkework and tooling
+6.4.1 Critical competition field for Alibaba cloud: AI agent development platforms
+Full-Stack Solutions: These platforms provide end-to-end support for enterprises developing and
+deploying AI agents. Some offer no-code or low-code tools with drag-and-drop interfaces,
+enabling teams without deep AI expertise to build and launch agents—democratizing AI
+development.
+● AWS:
+○ Team structure: AWS formed a new Agentic AI group, Led by Swami Sivasubramanian,
+this group focuses on developing AI agents to automate tasks for users. Sivasubramanian
+reports directly to AWS CEO Matt Garman.
+○ Products:"
+8 / 15

@@ -1,0 +1,435 @@
+﻿type,content
+table,../pdf_extracted_content\table_1_1.csv
+text,"Market Sharing about AI Agent - Erica Yu 1. Definition
+about
+AI
+Agent
+ 1.1 Gartner
+definition: 2. Growing
+Market
+momentum: 2.1 Andrew
+Ng
+
+Snowflake
+Build
+2024:
+ AI agents are
+autonomous or semiautonomous
+software
+entities
+that use AI  techniques to perceive,
+make
+decisions,
+take
+actions
+and achieve goals in their  digital or physical environments.   “Agentic
+AI
+is
+the
+next
+ major
+thing
+in
+AI.” “Don’t
+wait
+for
+GPT-5;
+ building
+an
+AI
+Agent
+with
+ GPT-4
+can
+already
+ achieve—or
+even
+surpass —the
+capabilities
+we
+ Key
+takeaways: Shift
+to
+Agentic
+Workflows: Traditional AI relies on static,  one-off prompts, while agentic workflows enable AI to self- reflect, use external tools, plan tasks, and collaborate,  improving reasoning and performance. ● Iteration
+Boosts
+Performance: Even weaker models (e.g.,  GPT-3.5) can outperform stronger ones (e.g., GPT-4) when  optimized through iterative workflows. ● Real-World
+Applications: AI Agents will enhance customer  support, legal analysis, healthcare diagnostics, and software  development, driving efficiency. ● 1 / 15"
+image,../pdf_extracted_content\image_1_1.png
+image,../pdf_extracted_content\image_1_2.png
+table,../pdf_extracted_content\table_2_2.csv
+text,"2.2 Investment
+boom: AI agents' mentions on corporrate earnings calls grew 4x
+QoQ in Q4
+2024. And they are  on pace to double again this quarter. Funding to startups in the field of AI Agents nearly 3x in 2024. About 15k funded startups in the U.S. are working on AI Agents.  2.3 Enormous
+market
+potential By 2028, Gartner predicts that
+33%
+of
+enterprise
+software
+applications
+will include agentic  AI, up from less than 1% in 2024, with at least 15% of day-to-day work decisions being made  autonomously through AI agents.In fact, the AI agents market is expected to see significant  growth, rising from $5.1
+billion
+in
+2024
+to
+$47.1
+billion
+by
+2030.  According to CB Insights,
+63% of organizaitons at Q4 2024 are ""placing a lot of importance"" on  AI agents in the next 12 months, and all are at least experimenting with them. 3. About
+Manus:
+breakthrough
+of
+hype? expect
+from
+future
+ models.” Transformational
+Impact: Like electricity and cloud  computing, agentic AI marks a major shift, revolutionizing  automation and creating vast business value. ● ● ● ● ● ● LLMs
+(Claude,
+DS-R1,
+Qwen)
++
+Tools,
+Functions,
+and
+ APIs: Gather information and present it in a user-centric  ● 2 / 15"
+image,../pdf_extracted_content\image_2_3.png
+table,../pdf_extracted_content\table_3_3.csv
+image,../pdf_extracted_content\image_3_4.png
+text,"4. Technological
+readiness
+for
+boost
+of
+AI
+Agent   完整测评：硅⾕AI导航 way. Applications: Research, daily life, data analysis,  education, and entertainment; current use cases face  challenges in multi-source integration and accuracy. ● Indication: AI Agents offer a relatively complete 2C user  experience; focus on commercialization at the  application layer; founders must move fast to gain a  first-mover advantage and iterate quickly on data and  tools. ● Reasoning
+ Oct
+2022: Princeton &  Google Brain introduced  the ReAct framework. ● Mar
+2023: ChatGPT-4  launched with  significantly improved  reasoning and response  quality. ● Mar
+2023: ChatGPT  Plugin enabled external  tool usage, expanding  GPT’s capabilities. ● 2024: OpenAI o1 & o3  tackled complex  problems with near- human precision; o3  improved efficiency by  20% and set new ARC  benchmarks. ● Jan
+2025：DeepSeek
+ R1
+is
+A breakthrough in  AI reasoning, offering  high performance at  lower costs, leveraging  ● Memory（Context） May
+2023: Claude model  introduced a 100K  context window, over  100× larger than GPT's. ● Nov
+2023: Claude 2.1  expanded to a 200K  context window,  significantly enhancing  reasoning. ● Feb
+2024: Google  released Gemini 1.5 with  a million-token context  window. ● Tooling Dec
+2023: Simular AI  Agent Demo – An AI  agent showcasing  autonomy and tool  interaction. ● May
+2024: OpenAI's GPT- 4o – Autonomous AI  capable of executing  tasks and integrating with  external tools via the  Assistants API. ● Oct
+2024: Claude
+ Computer
+Use – AI  updated to interact with  computers and perform  tasks requiring direct  computer interaction. ● Jan
+2025: OpenAI's
+ Operator
+– AI emulating  a research analyst to  gather and analyze data  using various tools. ● 3 / 15"
+table,../pdf_extracted_content\table_4_4.csv
+text,"5. Future
+trends 5.1.1 Improvement
+of
+independent
+agency
+capabilities:
+AI Agency is a spectrum, running from  current systems with limited agency that only perform specific tasks under narrowly defined  conditions to future systems with full agency that
+learn
+from
+their
+environment,
+make
+ decisions
+and
+perform
+tasks
+independently. Current LLM-based systems, like copilots  and virtual assistans, are more adaptable and can tackle more complex tasks than previous  systems. However, they remain unreliable and require huan
+supervision; as such, they  represent early examples of AI agents rather than the full-fledged agents promised by future  AI models.     5.1.2 Multiagent
+systems
+(MAS):
+ transparency, innovative  training, and open-source  collaboration to challenge  AI giants. Conclusion：the current development of technology can support the commercial  application of a large number of mature scenarios, and can also support the application  of embryonic C- end products. However, if AI is required to undertake more complex  work, there is still a long space for development in long-term memory, multimodal, API  integration and multi-Agent collaboration. Gartner
+definition: MAS is a multiagent system(MAS) is a type of AI system composed of multiple, independent,  interacting agents, each capable of perceiving their environment and taking actions. the  composition of MAS may vary: 4 / 15"
+image,../pdf_extracted_content\image_4_5.png
+table,../pdf_extracted_content\table_5_5.csv
+text,"Bottleneck：A
+distributed
+agent
+network
+and
+interconnection
+protocol
+integrating  cloud and edge: A
+globally
+unified
+AI
+OS
+is
+needed. A Dev Agent startup, founded by a  former Android founder, stated: ""We
+need
+an
+AI
+moment
+similar
+to
+the
+Android
+revolution."" 6. Landcaple
+of
+AI
+Agent By
+architecture: MAS architectures exist in a spectrum, from predefined sets of  agents with centralized control and deterministic behavior and outcomes, to highly   dynamic, constantly evolving collectives of agents with distributed control,  adaptive behavior and emerging outcomes at the system level.  ● By
+agent
+type/role: MASs may also vary by type of agent; sometimes all agents  have the same role, while in other cases agents play different roles, such as  coordinator, guard, communicator, sensor, solver or actuator.  ● By
+technique: Agents may also vary in terms of the AI technique that enables  each of them, depending on their task in the collective. ● 5 / 15"
+image,../pdf_extracted_content\image_5_6.png
+table,../pdf_extracted_content\table_6_6.csv
+image,../pdf_extracted_content\image_6_7.png
+image,../pdf_extracted_content\image_6_8.png
+text,"6.1 Big
+tech
+dominate
+general
+AI
+Agent Cost: AI agents from big tech and leading LLM developers like OpenAI and Anthropic will  pressure private players in 2025 due to their cost advantages. Distribution: OpenAI’s ChatGPT, with 400M weekly users, has a significant distribution edge as  it rolls out agents like Operator in January 2025. Risk: 40% of corporate strategy teams (CB Insights) prioritize risk management in genAI vendor  selection. AI agents require access to sensitive data and operate autonomously, raising  concerns over privacy, liability, and security. Risk-averse enterprises will likely favor established  cloud providers they already trust. ● ● ● 6 / 15"
+table,../pdf_extracted_content\table_7_7.csv
+image,../pdf_extracted_content\image_7_9.png
+text,"6.2 Specialized
+agents
+promising
+field
+in
+capital
+markets: Programming: The most mature and widely adopted category, with early successful  deployments. For example, Cognition AI's Devin can replace junior developers, while Replit's AI  Agent generates full web applications based on natural language instructions. Customer
+Support
+&
+Sales: Companies like Decagon, serving Duolingo, Notion, and  Eventbrite, enable AI agents to automate up to 70% of support tickets. In sales, Clay leverages  AI agents to scrape and enrich target customer data, facilitating personalized mass outreach. Business
+Research: Hebbia is used by one-third
+of
+the
+top
+50
+global
+asset
+management
+ firms, as well as consulting firms and law offices, to streamline research. Academic
+Research: Elicit excels in generating sections of academic papers and processing  vast datasets. Healthcare: Epic, the largest medical information company, employs AI agents to automate  administrative tasks like patient scheduling, reducing manual workload. 6.3 Private
+AI
+Agent
+go
+specialized ● ● ● ● ● 7 / 15"
+table,../pdf_extracted_content\table_8_8.csv
+text,"Define
+a
+good
+use
+case
+for
+AI
+Agent: High-repetition
+tasks: Ideal for customer support, sales, and similar roles. Modular
+workflows: Best for self-contained software development tasks requiring minimal  background knowledge. Information
+retrieval
+&
+processing: Effective for research tasks without complex tool  dependencies. Augmentation
+over
+replacement: AI should assist and integrate gradually rather than fully  replace human roles. Autonomy
+&
+adaptability: Suitable for dynamic environments, complex decision-making,  and continuous learning. 6.4 Infrastructure,
+framkework
+and
+tooling 6.4.1 Critical
+competition
+field
+for
+Alibaba
+cloud:
+AI
+agent
+development
+platforms Full-Stack
+Solutions: These platforms provide end-to-end support for enterprises developing and  deploying AI agents. Some offer no-code or low-code tools with drag-and-drop interfaces,  enabling teams without deep AI expertise to build and launch agents—democratizing AI  development. ○ ○ ○ ○ ○ AWS: ● Team
+structure: AWS formed a new Agentic AI group, Led by Swami
+Sivasubramanian,  this group focuses on developing AI agents to automate tasks for users. Sivasubramanian  reports
+directly
+to
+AWS
+CEO
+Matt
+Garman. ○ Products: ○ 8 / 15"
+image,../pdf_extracted_content\image_8_10.png
+table,../pdf_extracted_content\table_8_9.csv
+table,../pdf_extracted_content\table_9_10.csv
+table,../pdf_extracted_content\table_9_11.csv
+text,"Amazon
+Q
+Developer
+Agents: AWS has introduced new agents in Amazon Q to  reduce workloads. These agents leverage advanced models like Claude 3.7 Sonnet for  more interactive developer experiences. Alexa+: An upgraded version of Alexa that incorporates agentic AI capabilities,  allowing it to perform tasks autonomously, such as booking rides or browsing  websites. BedRock: ■ ■ ■ Function
+Name Brief
+Description Release
+Date Amazon
+Bedrock
+ Agents Executes multistep tasks using foundation models  and enterprise systems. Jul-22 Multi-Agent
+ Orchestrator
+ Framework Manages multiple AI agents for complex  conversational scenarios, integrating with AWS  Lambda and other platforms. Dec-24 Amazon
+Bedrock
+ Multi-Agent
+ Collaboration Enables multiple agents to collaborate under a  supervisor agent for complex tasks. Mar-25 Inline
+Agent
+ Support Dynamically creates supervisor agents at runtime for  flexible agent management. Mar-25 Payload
+ Referencing Allows supervisor agents to reference external data  without embedding it in requests. Mar-25 CloudFormation
+ and
+CDK
+Support Deploys agent networks as code for scalability and  reusability. Mar-25 Enhanced
+ Traceability
+and
+ Debugging Provides structured logs and Amazon CloudWatch  integration for better monitoring. Mar-25 Microsoft: ● CoreAI
+Team: Microsoft has formed a new engineering team called CoreAI – Platform and Tools to  accelerate AI development (Jan 2025). This team combines resources from the developer division, AI  platform, and key teams from the Office of the CTO to build end-to-end AI stacks for both first-party  and third-party customers.  ○ AI Agent products: ○ 9 / 15"
+table,../pdf_extracted_content\table_9_12.csv
+table,../pdf_extracted_content\table_9_13.csv
+table,../pdf_extracted_content\table_9_14.csv
+table,../pdf_extracted_content\table_10_15.csv
+text,"to
+B
+products:
+ Semantic
+Kernal/
+Azure
+AI
+studio ■ Product
+ Name Brief
+Description Release
+Date GitHub
+ Copilot AI-powered coding assistant for developers,  providing code completion, chat, and pull request  summaries. 2021 (Initial  Release), Ongoing  Updates GitHub
+ Copilot
+X Enhanced version of GitHub Copilot with advanced AI  capabilities for the entire development lifecycle. 2023 (Announced) Microsoft
+ Security
+ Copilot AI agents for security tasks, including phishing triage,  alert management, and vulnerability remediation. 2023 (Initial  Release), 2025  (Expanded with AI  Agents) Microsoft
+ 365
+Copilot Integrates AI agents into Microsoft 365 applications  to enhance productivity and workflow automation. 2023 (Announced),  2025 (Expanded  with Adobe  Collaboration) Adobe
+ Express
+ Agent
+for
+ Microsoft
+ 365
+Copilot Enables creation of visual assets directly within  Microsoft applications using AI. 2025 (Private  Preview) Adobe
+ Marketing
+ Agent AI agent for marketing tasks, integrated with  Microsoft 365 Copilot. 2025 (Private  Preview) ■ Function
+Name Brief
+Description Release
+Date Agent
+Chat
+and
+ Agent
+Channel Facilitates agent interactions and  collaboration. August 2024  (Experimental) Plugin
+and
+ Extends agent capabilities with custom  August 2024  10 / 15"
+table,../pdf_extracted_content\table_10_16.csv
+table,../pdf_extracted_content\table_10_17.csv
+table,../pdf_extracted_content\table_11_18.csv
+table,../pdf_extracted_content\table_11_19.csv
+text,"Function
+Calling plugins and external services. (Experimental) Semantic
+Kernel
+ Agent
+ Framework Enables creation and management of AI  agents for autonomous tasks. August 2024  (Experimental), March  2025 (Release Candidate) ChatCompletion Agent Completes chats using AI models. August 2024  (Experimental), March  2025 (Release Candidate) OpenAIAssistant Agent Utilizes OpenAI Assistant API for agent tasks. August 2024  (Experimental), March  2025 (Release Candidate) Multi-Agent
+ Collaboration Allows multiple agents to collaborate on  complex tasks. February 2025  (Experimental) Multi-Model
+ Orchestration Enables agents to use different AI models for  diverse tasks. February 2025  (Experimental) AzureAIAgent Integrates Azure AI services into agent  workflows. March 2025 (Release  Candidate) AgentResponseI Handles chat message threads with optional  agent threads. March 2025 (Release  Candidate 2) Google ● Gemini
+2.0: This AI model is designed to enhance multimodality, native tool use, and  advanced reasoning capabilities. It supports the development of AI agents with improved  dialogue, memory, and latency ○ Products:  ○ to
+B
+products:  ■ Product
+ Name Brief
+Description Release
+Date Project
+ Mariner AI agent for human-agent interaction in web browsers. December 2024  (Announced) Jules AI-powered code agent for developers. December 2024  11 / 15"
+table,../pdf_extracted_content\table_11_20.csv
+table,../pdf_extracted_content\table_11_21.csv
+table,../pdf_extracted_content\table_11_22.csv
+table,../pdf_extracted_content\table_12_23.csv
+table,../pdf_extracted_content\table_12_24.csv
+text,"6.4.2 Ecosystem
+example: Vertex
+Agents
+Builder
+and
+Google
+AI
+Studio: (Announced) Gemini
+ Robotics AI models designed to control robots. Mar-25 AI
+Coach Tool to improve employee productivity using AI. Mar-25 Gemma
+3 Open AI models for building AI applications. Mar-25 Agent
+ Trainer AI-powered simulation and training tool for customer  support agents. Mar-25 Agent
+ Desktop
+ Applicatio n Standalone client for contact centers with AI integration. Mar-25 ■ Feature/Function Brief
+Description Release
+Date Vertex
+AI
+Agent
+Builder
+ No-Code
+Interface Allows users to build AI agents without  coding, using natural language instructions. Jan-25 Code-First
+Orchestration
+ with
+LangChain
+and
+ LlamaIndex Provides advanced tools for developers to  build complex AI applications. Jan-25 Real-Time
+Data
+ Integration
+via
+RAG
+ System Connects AI agents to trusted data sources  like Google Search and enterprise data. Jan-25 Low-Code
+to
+High-Code
+ Development Offers flexibility for both simple and  complex AI application development. Jan-25 Integration
+with
+ Dialogflow
+CX Enhances natural language understanding  for AI agents. Jan-25 Integration
+with
+Vertex
+AI
+ Search Enables information retrieval from  enterprise data. Jan-25 12 / 15"
+table,../pdf_extracted_content\table_12_25.csv
+table,../pdf_extracted_content\table_13_26.csv
+text,"Devlopment
+tool:
+maintream devloper tools ,such like Langchain, a  $30M-funded open-source  toolkit for agent developers to integrate LLMs, databases, long-term memory, and multi-step  workflows. Data
+Curation:
+for agents to make informed decisions, they need access to the right context.  Examples such as LlamaIndex,Enhances AI agents' ability to process and utilize private  domain data. Web
+search
+&
+tool
+use:
+effective agents need to be able to browse the web andleverage other  tools and applications. Companies such like browserbase allow developers to automate web  interactions using AI and headless browsers. Evaluation
+&
+observability: many agent applications today oeprate in constrained  environments due to reasoning and reliability challenges. Continuous monitoring and testingare  essential for agent reliatbility, with early-stage startups like Langfuse, Haize Labs, and Coval. 7. Customer
+list Reference
+and
+appendix What AI Agent can or cannot do:  https://www.gartner.com/en/podcasts/thinkcast/from-hype-to-reality-what-ai- agents-can-and-cant-do  Innovation insights: AI agent (need to be requested seperately) Business Value for Agentic AI:  ● ● ● ● Agentic AI List_20250325.xlsx 617.2KB Agentic AI funding_20250326.xlsx 196.2KB AI agent_the next big thing about AI.pdf 1.9MB ○ ○ ○ 13 / 15"
+table,../pdf_extracted_content\table_13_27.csv
+table,../pdf_extracted_content\table_13_28.csv
+table,../pdf_extracted_content\table_14_29.csv
+text,"Emerging Patterns for Building LLM-Based AI Agents
+ (need to be requested  seperately) Capitalize on the AI Agent Opportunity (need to be requested seperately) Transform Data productivity with AI Agents:  McK POV： Comparison
+of
+world's
+leading
+AI
+agents: Business Value Driver for Agentic AI.pdf 2.9MB ○ ○ ○ Transform Data Productivity with AI Agents.pdf 3.1MB ● why-agents-are-the-next-frontier-of-generative-ai (1).pdf 396.0KB ○ OpenAI' s
+ Operato r Anthropic 's
+Claude Nvidia's
+ Eureka SAP's
+ Joule Quidget
+ AI
+Agent Perplexit y
+ Assistant Trengo
+ AI
+Agent Primary
+ Function Browser- based  automati on tasks Browser  and  desktop  app  interactio n Real-time  data  tasks and  research Enterprise   collaborat ion &  SAP  integratio n Customer  support  and sales  automatio n E- commerc e  purchases , taxi  booking,  etc. Unified  communi cation  and  customer  support Task
+ Automatio n
+ Capabilitie s Fills  forms,  books  flights,  orders  groceries Similar to  Operator,  with  desktop  app  support Focuses  on data  integratio n and  execution Integrates  with SAP  systems  for  workflow  Automate s  customer  inquiries  and sales Automate s tasks  on  Android  apps Automate s ticket  routing &  customer  interactio ns 14 / 15"
+table,../pdf_extracted_content\table_14_30.csv
+table,../pdf_extracted_content\table_15_31.csv
+table,../pdf_extracted_content\table_15_32.csv
+text,"automatio n Integration
+ Options API- focused,  but  operates  without  APIs Operates  without  APIs Research  tools SAP  ecosyste m Over  6,000  apps Integrates  with  Spotify,  Uber Integrates  with  CRM  tools Deploymen t
+Model Cloud- based,  in  ChatGPT  Pro Broader  beta  availability On- premise Hybrid Multi- channel Mobile  app Cloud- based Cost
+ Structure Usage- based,  part of  ChatGPT  Pro  ($200/m onth) Free beta  access Custom  pricing SAP  license- based Starting  at  $16/mont h Not  specified Starting  at  £82/mont h Key
+ Features Uses  CUA  model  for GUI  interacti on Extends  functionali ty to  desktop  applicatio ns Emphasiz es real- time task  execution Designed  for  enterprise   collaborat ion No-code  setup,  global  language  support Multimod al  processin g for  smartpho ne Unified  inbox for  all  communi cation  channels Performan ce
+ Benchmark s 87% on  WebVoy ager,  38.1%  on  OSWorld 25 56% on  WebVoya ger, 22%  on  OSWorld5 Not  specified Not  specified Not  specified Not  specified Not  specified 15 / 15"
