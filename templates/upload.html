@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>파일 업로드</title>
+  <link rel="stylesheet" href="/static/upload.css" />
+</head>
+<body>
+  <div class="upload-container">
+    <header class="upload-header">
+      <h1>파일 업로드</h1>
+    </header>
+
+    <form id="upload-form" class="upload-form" enctype="multipart/form-data">
+      <label for="file-input" class="file-label">
+        <span>파일 선택</span>
+        <input type="file" id="file-input" name="file" />
+      </label>
+
+      <button type="submit" class="upload-submit">업로드</button>
+    </form>
+
+    <div id="upload-status" class="upload-status">
+      <!-- 업로드 결과 메시지 -->
+    </div>
+  </div>
+
+  <script>
+    const form = document.getElementById('upload-form');
+    const input = document.getElementById('file-input');
+    const status = document.getElementById('upload-status');
+
+    form.addEventListener('submit', async e => {
+      e.preventDefault();
+      if (!input.files.length) {
+        status.textContent = '업로드할 파일을 선택해주세요.';
+        status.className = 'upload-status error';
+        return;
+      }
+
+      const file = input.files[0];
+      const formData = new FormData();
+      formData.append('file', file);
+
+      status.textContent = '업로드 중...';
+      status.className = 'upload-status';
+
+      try {
+        const res = await fetch('/upload', {
+          method: 'POST',
+          body: formData
+        });
+        if (!res.ok) throw new Error(await res.text());
+        const data = await res.json();
+        status.textContent = `성공: ${data.filename} (${data.size} bytes)`;
+        status.className = 'upload-status success';
+      } catch (err) {
+        status.textContent = `실패: ${err.message}`;
+        status.className = 'upload-status error';
+      }
+    });
+  </script>
+</body>
+</html>

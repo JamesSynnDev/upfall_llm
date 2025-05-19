@@ -1,0 +1,120 @@
+/* 전체 배경과 컨테이너 */
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f7f7f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  max-width: 100%;
+  height: 90vh;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+/* 헤더 */
+.chat-header {
+  padding: 16px;
+  background-color: #444654;
+  color: white;
+  text-align: center;
+}
+
+/* 메시지 리스트 */
+.chat-list {
+  display: flex;
+  flex-direction: column;
+
+  flex: 1;
+  list-style: none;
+  padding: 16px;
+  margin: 0;
+  overflow-y: auto;
+}
+
+/* 메시지 공통 */
+.message {
+  /* ① inline-block 으로 바꿔서 컨텐츠 너비에 딱 맞게 */
+  display: inline-block;
+  /* ② 자동 너비, 최대 너비는 60% */
+  width: auto;
+  max-width: 60%;
+  /* 기본 wrap 동작 유지 */
+  white-space: pre-wrap;
+  word-break: break-word;
+
+  /* padding·폰트·모양 (필요시 조정) */
+  padding: 8px 12px;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 400;  /* 400, 500, 700 중 선택 */
+  font-size: 14px;
+  border-radius: 10px;
+
+  margin-bottom: 8px;
+}
+
+/* 유저 메시지 (오른쪽) */
+.message.user {
+  align-self: flex-end;
+  background-color: #10a37f;
+  color: white;
+  border-bottom-right-radius: 4px;
+}
+
+/* 봇 메시지 (왼쪽) */
+.message.bot {
+  align-self: flex-start;
+  background-color: #f1f0f0;
+  color: #333333;
+  border-bottom-left-radius: 4px;
+}
+
+/* 입력 폼 */
+.chat-form {
+  display: flex;
+  padding: 16px;
+  border-top: 1px solid #e0e0e0;
+  background-color: #fafafa;
+}
+
+.chat-input {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 400;  /* 400, 500, 700 중 선택 */
+  font-size: 14px;
+  flex: 1;
+  resize: none;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  line-height: 1.4;
+  margin-right: 8px;
+}
+
+.chat-input:focus {
+  outline: none;
+  border-color: #10a37f;
+}
+
+.chat-submit {
+  background-color: #10a37f;
+  border: none;
+  color: white;
+  padding: 0 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.chat-submit:disabled {
+  background-color: #8fcfc1;
+  cursor: not-allowed;
+}
