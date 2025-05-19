@@ -1,11 +1,16 @@
+import os
+
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
 from langchain_community.llms import HuggingFacePipeline
 
 def get_llm():
-    model_path = "./models/gemma-3-1b-it"
+    model = "gemma-3-1b-it"
 
-    tokenizer = AutoTokenizer.from_pretrained(model_path)
-    model = AutoModelForCausalLM.from_pretrained(model_path)
+    BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+    MODEL_DIR = os.path.join(BASE_DIR, "models", "google", model)
+
+    tokenizer = AutoTokenizer.from_pretrained(MODEL_DIR)
+    model = AutoModelForCausalLM.from_pretrained(MODEL_DIR)
 
     gen_pipeline = pipeline(
         "text-generation",
